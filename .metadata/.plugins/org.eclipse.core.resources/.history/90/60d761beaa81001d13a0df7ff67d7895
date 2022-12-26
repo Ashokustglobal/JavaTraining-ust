@@ -1,0 +1,46 @@
+package pfdeductionfromsalary;
+
+public class PfOfEmployee {
+    
+	private int id;
+	private String empName;
+	private double salary;
+	private double pfDeduct;
+	public PfOfEmployee(int id, String empName, double salary) {
+		super();
+		this.id = id;
+		this.empName = empName;
+		this.salary = salary;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public double getPfDeduct() {
+		return pfDeduct;
+	}
+	public void setPfDeduct(double pfDeduct) {
+		this.pfDeduct = pfDeduct;
+	}
+	public String getEmpName() {
+		return empName;
+	}
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	@Override
+	public String toString() {
+		return "PfOfEmployee [id=" + id + ", empName=" + empName + ", salary=" + salary + "]";
+	}
+	
+	
+	
+}

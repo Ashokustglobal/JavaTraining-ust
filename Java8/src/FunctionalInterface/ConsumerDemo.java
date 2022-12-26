@@ -1,0 +1,13 @@
+package FunctionalInterface;
+
+import java.util.function.Consumer;
+
+public class ConsumerDemo {
+
+	public static void main(String[] args) {
+		Consumer<Integer>integer =t->System.out.println("This is Functional Interface:"+t);
+		integer.accept(10);
+		
+		
+	}
+}

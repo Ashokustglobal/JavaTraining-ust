@@ -1,0 +1,21 @@
+package flatMap;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+/**
+ * @author ustjavafsdb414
+ *
+ */
+public class PersonService {
+
+	List<Person> list=PersonDao.getAll();
+	
+	List<String>email=list.stream().map(person->person.getEmil()).collect(Collectors.toList());
+	
+	public static void main(String[] args) {
+		
+	}
+
+			
+}

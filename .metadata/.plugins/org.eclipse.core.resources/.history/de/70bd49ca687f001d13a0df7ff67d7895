@@ -1,0 +1,20 @@
+package opps;
+
+public class Vehicle {
+
+String whehicleType;
+int numberWheels;
+
+String name;
+
+public Vehicle(String whehicleType, int numberWheels,String name) {
+	super();
+	this.whehicleType = whehicleType;
+	this.numberWheels = numberWheels;
+}
+	
+public void working() {
+	System.out.println("it's working fine");
+}
+
+}

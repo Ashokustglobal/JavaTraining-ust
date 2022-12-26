@@ -1,0 +1,10 @@
+package encaptulation;
+
+public abstract class Abstract {
+
+	private String name;
+	private String gender;
+	 
+	
+	 public Abstract void work() s;
+}

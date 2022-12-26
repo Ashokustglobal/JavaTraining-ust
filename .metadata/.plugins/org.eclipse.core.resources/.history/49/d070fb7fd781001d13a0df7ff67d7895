@@ -1,0 +1,7 @@
+package ecom.ust.example;
+
+public interface Person {
+
+	public void name();
+	public void experience() ;
+}

@@ -1,0 +1,13 @@
+package encaptulation;
+
+public abstract class Abstract {
+
+	private String name;
+	private String gender;
+	public Abstract(String name, String gender) {
+		super();
+		this.name = name;
+		this.gender = gender;
+	}
+	
+	 public void work();

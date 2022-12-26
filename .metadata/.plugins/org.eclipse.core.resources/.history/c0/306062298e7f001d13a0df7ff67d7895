@@ -1,0 +1,17 @@
+package collection;
+
+import java.util.List;
+
+public class ArrayList {
+
+	public static void main(String[] args) {
+		List<String>li=new java.util.ArrayList<>();
+		li.add("ashok");
+		li.add("shiva");
+		li.add("sreenu");
+		li.add("krishna");
+		for(String str:li) {
+			System.out.println(str.startsWith(str));
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package flatMap;
+
+import java.util.List;
+
+public class Person {
+
+	private int id;
+	private int name;
+	private int location;
+	private int emil;
+	private List<String> phoneNumber;
+	private int id;
+	
+}

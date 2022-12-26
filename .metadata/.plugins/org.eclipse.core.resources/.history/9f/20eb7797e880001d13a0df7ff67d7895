@@ -1,0 +1,17 @@
+package multithread;
+
+public class LambdaWithThread {
+
+	 public static void main(String args[]) {
+	      // Child thread
+	      new Thread(() -> { // Lambda Expression
+	         for(int i=1; i <= 5; i++) {
+	            System.out.println("Child Thread: "+ i);
+	            try {
+	               Thread.sleep(500);
+	            } catch(Exception e) {
+	               e.printStackTrace();
+	            }
+	         }
+	
+}

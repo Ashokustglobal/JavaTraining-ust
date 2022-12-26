@@ -1,0 +1,7 @@
+package opps;
+
+public class Bus extends Vehicle{
+	
+	String engine;
+
+}

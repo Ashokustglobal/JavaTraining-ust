@@ -1,0 +1,29 @@
+package pfdeductionfromsalary;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+public class PfService {
+
+	public static void main(String[] args) {
+		List<PfOfEmployee>pf=new PfOfEmployeeDao().getDetails();
+		Map<PfOfEmployee, Double> map=new HashMap<>();
+		for (PfOfEmployee emp:pf) {
+			if(emp.getSalary()<25000) {
+				emp.setPfDeduct(emp.getSalary()*(0.05));
+				emp.setSalary(emp.getSalary()-emp.getPfDeduct());
+			}else if(emp.getSalary()>=25000 && emp.getSalary()<50000) {
+				emp.setPfDeduct(emp.getSalary()*(0.07));
+				emp.setSalary(emp.getSalary()-emp.getPfDeduct());
+			}else if(emp.getSalary()>=50000 && emp.getSalary()<80000) {
+				emp.setPfDeduct(emp.getSalary()*(0.12));
+				emp.setSalary(emp.getSalary()-emp.getPfDeduct());
+			}
+			 map.put(emp, emp.getPfDeduct());
+				System.out.println(map);
+		}
+		 
+	}
+}

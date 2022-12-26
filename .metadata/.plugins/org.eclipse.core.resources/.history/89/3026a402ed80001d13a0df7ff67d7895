@@ -1,0 +1,12 @@
+package task;
+
+public class Employee {
+
+	private int ticketId;
+	private String passengerName;
+	private String source;
+	private String destination;
+	
+	
+	
+}

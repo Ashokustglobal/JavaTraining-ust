@@ -1,0 +1,11 @@
+package opps;
+
+public class Car {
+ 
+	 String wheels;
+	 String model;
+	 
+	 
+	 
+	
+}

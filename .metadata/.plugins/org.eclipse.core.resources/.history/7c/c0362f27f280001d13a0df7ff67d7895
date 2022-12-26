@@ -1,0 +1,32 @@
+package task;
+
+public class Passenger {
+
+	private int ticketId;
+	private String passengerName;
+	private String source;
+	private String destination;
+	private int km;
+	
+	public Passenger(int ticketId, String passengerName, String source, String destination, int km) {
+		//super();
+		this.ticketId = ticketId;
+		this.passengerName = passengerName;
+		this.source = source;
+		this.destination = destination;
+		this.km = km;
+	}
+
+	 
+	 
+
+	@Override
+	public String toString() {
+		return "Employee [ticketId=" + ticketId + ", passengerName=" + passengerName + ", source=" + source
+				+ ", destination=" + destination + ", km=" + km + "]";
+	}
+
+	 
+	
+	
+}

@@ -1,0 +1,15 @@
+package Panvalidation;
+
+public class PanNumberValidation {
+	
+	private int personId;
+	private String personName;
+	private String  panNumber;
+	
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}

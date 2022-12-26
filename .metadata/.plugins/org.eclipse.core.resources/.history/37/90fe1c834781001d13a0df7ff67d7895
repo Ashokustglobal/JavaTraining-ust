@@ -1,0 +1,26 @@
+package pfdeductionfromsalary;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class PfOfEmployeeDao {
+
+	public static void main(String[] args) {
+		List<PfOfEmployee>pf=new ArrayList<>();
+		pf.add(new PfOfEmployee(100, "aa", "25000"));
+		pf.add(new PfOfEmployee(101, "bb", "50000"));
+		pf.add(new PfOfEmployee(102, "cc", "80000"));
+		pf.add(new PfOfEmployee(103, "aa", "15000"));
+		
+		 Map<PfOfEmployee, String>map=new HashMap<>();
+		 for(PfOfEmployee p:pf) {
+			 if(p.getSalary()<) {
+				 
+			 }
+		 }
+	}
+	
+	
+}

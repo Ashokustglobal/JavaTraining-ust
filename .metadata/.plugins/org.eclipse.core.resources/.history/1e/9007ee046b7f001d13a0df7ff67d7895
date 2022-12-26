@@ -1,0 +1,11 @@
+package opps;
+
+public class Lorry extends Vehicle {
+
+	String wheels;
+
+	 
+	
+	
+	
+}

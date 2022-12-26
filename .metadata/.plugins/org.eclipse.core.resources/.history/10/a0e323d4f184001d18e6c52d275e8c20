@@ -1,0 +1,11 @@
+package srp;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Customer cu=new Customer(01, "ashok", "20000");
+		Customer cu=new Customer(01, "ashok", "20000");
+	}
+	
+	
+}

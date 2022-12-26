@@ -1,0 +1,10 @@
+package encaptulation;
+
+public class Employee extends Abstract{
+  
+	 
+
+	String empId;
+	
+	
+}

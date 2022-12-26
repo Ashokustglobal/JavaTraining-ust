@@ -1,0 +1,17 @@
+package FunctionalInterface;
+
+public class Jio implements Sim{
+
+	@Override
+	public void data() {
+		 
+		
+	}
+
+	@Override
+	public void calling() {
+		 
+		
+	}
+
+}

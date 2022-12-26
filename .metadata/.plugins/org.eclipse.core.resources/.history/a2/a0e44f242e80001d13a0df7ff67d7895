@@ -1,0 +1,29 @@
+package FunctionalInterface;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SupplierDemo {
+	
+public static void main(String[] args) {
+	
+	List<String>list=new ArrayList<>();
+	list.add("Ashok");
+	list.add("Kumar");
+	list.add("Ashok");
+	list.add("Kumar");
+	list.add("Ashok");
+	list.add("Kumar");
+	list.add("Ashok");
+	list.add("Kumar");
+	list.stream().forEach((name)->{
+		printName(() -> item);
+	});
+	
+}
+
+private static void printName(Object object) {
+	// TODO Auto-generated method stub
+	
+}
+}

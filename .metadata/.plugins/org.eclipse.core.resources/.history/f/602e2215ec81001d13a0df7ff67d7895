@@ -1,0 +1,37 @@
+package Employee;
+
+public class Employee1 {
+
+	
+	  String employeeId;
+	  String empName;
+	  String empSalary;
+	  String empLocation;
+	
+public void display() {
+		System.out.println("Ashok");
+	}
+	
+	@Override
+	public String toString() {
+		return "Employee1 [employeeId=" + employeeId + ", empName=" + empName + ", empSalary=" + empSalary
+				+ ", empLocation=" + empLocation + "]";
+	}
+	
+	public String getEmployeeId() {
+		return employeeId;
+	}
+	public String getEmpName() {
+		return empName;
+	}
+	public String getEmpSalary() {
+		return empSalary;
+	}
+	public String getEmpLocation() {
+		return empLocation;
+	}
+	
+	
+	
+	
+}

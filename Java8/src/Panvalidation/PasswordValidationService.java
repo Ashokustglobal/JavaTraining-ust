@@ -1,0 +1,32 @@
+package Panvalidation;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import flatMap.Person;
+import flatMap.PersonDao;
+
+public class PasswordValidationService {
+
+	
+public static void main(String[] args) {
+		
+		List<PanNumberValidation> list=PanValidationDao.getAll();
+		
+		
+		
+		
+		
+		
+		
+		
+//		List<String>email=list.stream().map(person->person.getEmil()).collect(Collectors.toList());
+//
+//		List<String>flatMap=list.stream().flatMap(person1->person1.getPhoneNumber().stream()).collect(Collectors.toList());
+//		System.out.println(email);
+//		System.out.println(flatMap);
+		
+	}
+	
+	
+}

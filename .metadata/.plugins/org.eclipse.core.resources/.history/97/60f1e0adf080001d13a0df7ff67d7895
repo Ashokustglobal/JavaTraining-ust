@@ -1,0 +1,30 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class PassengerDao {
+
+	public static void main(String[] args) {
+		
+	  
+			List<Passenger>emp=new ArrayList<>();
+			emp.add(new Passenger(1,"Ashok","Chennai","Hyderabad", 250));
+			emp.add(new Passenger(1,"Thiru","Chennai","Mubai",3000));
+			emp.add(new Passenger(1,"naveen","Chennai","Pune",5000));
+			emp.add(new Passenger(1,"Krishna","Chennai","Bengalur",500));
+			emp.add(new Passenger(1,"Jeevan","chennai","Bengalur",300));
+			emp.add(new Passenger(1,"RaviTeja","Hyderabad","Chennai",5000));
+					
+			List<PassengerDao>ticketDetails=emp.stream().map(m->{
+				PassengerDao assengerDao=new PassengerDao();
+				
+				int perKm=5;
+				
+				employeeDao.setId();
+			});
+			  
+}
+	}
+

@@ -1,0 +1,12 @@
+package FunctionalInterface;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeDao {
+
+	public static void main(String[] args) {
+		List<Employee>emp=new ArrayList<>();
+		emp.add(1,"Ashok","Chennai","50000");
+	}
+}

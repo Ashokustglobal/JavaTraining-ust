@@ -1,0 +1,12 @@
+package synchonizatin;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Thread th=new Thread();
+		
+		Table t1=new Table();
+	    MyThread thread=new MyThread(t1);
+	    th.start();
+	}
+}

@@ -1,0 +1,8 @@
+package opps;
+
+public class Vehicle {
+
+String whehicleType;
+int numberWheels;
+	
+}

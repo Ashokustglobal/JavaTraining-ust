@@ -1,0 +1,22 @@
+package Panvalidation;
+
+public class PanNumberValidation {
+	
+	private int personId;
+	private String personName;
+	private String  panNumber;
+	
+	public PanNumberValidation() {
+		
+	}
+	
+	public PanNumberValidation(int personId, String personName, String panNumber) {
+//		super();
+		this.personId = personId;
+		this.personName = personName;
+		this.panNumber = panNumber;
+	}
+	
+ 
+	
+}

@@ -1,0 +1,14 @@
+package opps;
+
+public class Lorry extends Vehicle {
+
+	String wheels;
+
+	public Lorry(String whehicleType, int numberWheels, String wheels) {
+		super(whehicleType, numberWheels);
+		this.wheels = wheels;
+	}
+	
+	
+	
+}

@@ -1,0 +1,12 @@
+package flatMap;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class PersonDao {
+
+	public static List<Person>getAll(){
+		return Stream.of(new  Person(100,"Asok","@gamil.com","chennai",Arrays.asList("0987654321")));
+	}
+}

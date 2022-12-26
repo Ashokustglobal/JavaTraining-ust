@@ -1,0 +1,9 @@
+package FunctionalInterface;
+
+public class Employee {
+     
+	private int ustId;
+	private String name;
+	private String locatin;
+	private String salary;
+}

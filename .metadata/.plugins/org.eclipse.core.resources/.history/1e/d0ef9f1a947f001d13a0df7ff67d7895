@@ -1,0 +1,21 @@
+package collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Employee {
+
+public static void main(String[] args) {
+	Map<Integer,String>map=new HashMap<>();
+	/// Map<String,String> map = new LinkedHashMap<>();
+	 map.put( 33,"Active");
+	 map.put( 3,"Renewals Completed");
+	 map.put( 15,"Application");
+	 Map.Entry<String,String> entry = map.entrySet().iterator().next();
+	 String key= entry.getKey();
+	 String value=entry.getValue();
+	 System.out.println(key);
+	 System.out.println(value);
+}	
+	
+}

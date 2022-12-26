@@ -1,0 +1,14 @@
+package opps;
+
+public class Bus extends Vehicle{
+	
+	String engine;
+
+	public Bus(String whehicleType, int numberWheels, String engine) {
+		super(whehicleType, numberWheels);
+		this.engine = engine;
+	}
+	
+	
+
+}

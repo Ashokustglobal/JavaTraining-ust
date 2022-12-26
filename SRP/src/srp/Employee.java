@@ -1,0 +1,17 @@
+package srp;
+
+public class Employee {
+
+	public long salary(long amount ,String Account) {
+		return 0;
+		
+	}
+	
+	public long vPay(long amount ,String Account) {
+		return 0;
+		
+	}
+	public void getLoanServices(String loanType) {
+		
+	}
+}

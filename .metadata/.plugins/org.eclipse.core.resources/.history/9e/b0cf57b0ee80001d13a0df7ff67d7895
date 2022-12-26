@@ -1,0 +1,22 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class EmployeeDao {
+
+	
+	 public List<Employee> getModels() {
+			List<Employee>emp=new ArrayList<>();
+			emp.add(new Employee(1,"Ashok","Chennai","50000", 250));
+			emp.add(new Employee(1,"Thiru","Chennai",3000));
+			emp.add(new Employee(1,"naveen","Chennai",5000));
+			emp.add(new Employee(1,"Krishna","Chennai",500));
+			emp.add(new Employee(1,"Jeevan","Bengalur",5000));
+			emp.add(new Employee(1,"RaviTeja","Hyderabad",5000));
+			
+//			 
+			 return emp;
+}
+}

@@ -1,0 +1,19 @@
+package task;
+
+public class Employee {
+
+	private int ticketId;
+	private String passengerName;
+	private String source;
+	private String destination;
+	public Employee(int ticketId, String passengerName, String source, String destination) {
+		//super();
+		this.ticketId = ticketId;
+		this.passengerName = passengerName;
+		this.source = source;
+		this.destination = destination;
+	}
+	
+	
+	
+}

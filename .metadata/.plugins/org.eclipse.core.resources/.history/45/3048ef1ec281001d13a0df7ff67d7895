@@ -1,0 +1,5 @@
+package ecom.ust.example;
+
+public interface Employee {
+
+}

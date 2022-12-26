@@ -1,0 +1,18 @@
+package ust.maven;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+
+	
+	public static void main(String[] args) {
+		
+		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("ApplicationContext.xml");
+		 Employee factory=new Employee(r);  
+         
+	        Employee s=(Employee)factory.getBean("e");  
+	        s.show();  
+		
+	}
+}

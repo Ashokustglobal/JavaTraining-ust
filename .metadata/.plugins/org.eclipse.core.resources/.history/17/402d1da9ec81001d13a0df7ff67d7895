@@ -1,0 +1,11 @@
+package ust.maven;
+
+public class Employee {
+
+	
+	  String employeeId;
+	  String empName;
+	  String empSalary;
+	  String empLocation;
+	
+}

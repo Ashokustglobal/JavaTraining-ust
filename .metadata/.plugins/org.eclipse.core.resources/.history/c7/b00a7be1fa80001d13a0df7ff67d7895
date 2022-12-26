@@ -1,0 +1,11 @@
+package synchonizatin;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Thread th=new Thread();
+		
+		Table t1=new Table();
+	    MyThread th=new MyThread(t1);
+	}
+}

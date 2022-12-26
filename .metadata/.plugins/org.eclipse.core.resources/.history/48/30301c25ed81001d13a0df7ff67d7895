@@ -1,0 +1,20 @@
+package ust.maven;
+
+public class Employee {
+
+	
+	  String employeeId;
+	  String empName;
+	  String empSalary;
+	  String empLocation;
+	public Employee(String employeeId, String empName, String empSalary, String empLocation) {
+		super();
+		this.employeeId = employeeId;
+		this.empName = empName;
+		this.empSalary = empSalary;
+		this.empLocation = empLocation;
+	}
+	
+	  
+	  
+}

@@ -1,0 +1,15 @@
+package pfdeductionfromsalary;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PfOfEmployeeDao {
+
+	public static void main(String[] args) {
+		List<PfOfEmployee>pf=new ArrayList<>();
+		pf.add(new PfOfEmployee(100, "aa", "25000"));
+		pf.add(new PfOfEmployee(100, "bb", "25000"));
+		pf.add(new PfOfEmployee(100, "cc", "25000"));
+	}
+	
+}

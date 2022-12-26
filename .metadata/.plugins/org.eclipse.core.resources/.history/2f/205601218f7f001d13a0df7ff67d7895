@@ -1,0 +1,20 @@
+package collection;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class ArrayList {
+
+	public static void main(String[] args) {
+		LinkedList<String>li=new LinkedList<>();
+		li.add("ashok");
+		li.add("shiva");
+		li.add("sreenu");
+		li.add("krishna");
+		//List<String>list=new java.util.ArrayList<>();
+		for(String str:li) {
+			if(str.startsWith("s")||str.startsWith("s"));
+			System.out.println(str);
+		}
+	}
+}

@@ -1,0 +1,18 @@
+package flatMap;
+
+import java.util.List;
+
+/**
+ * @author ustjavafsdb414
+ *
+ */
+public class PersonService {
+
+	List<String> list=PersonDao.getAll();
+	
+	public static void main(String[] args) {
+		
+	}
+
+			
+}

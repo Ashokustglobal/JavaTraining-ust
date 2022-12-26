@@ -1,0 +1,21 @@
+package encaptulation;
+
+public class Employee extends Abstract{
+  
+	 
+
+	public Employee(String name, String gender) {
+		super(name, gender);
+		// TODO Auto-generated constructor stub
+	}
+
+	String empId;
+
+	@Override
+	public void work() {
+		 
+		
+	}
+	
+	
+}

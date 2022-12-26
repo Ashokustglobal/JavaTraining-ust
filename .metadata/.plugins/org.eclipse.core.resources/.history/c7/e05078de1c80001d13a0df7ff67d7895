@@ -1,0 +1,6 @@
+package FunctionalInterface;
+
+public class Test {
+
+	Sim sim=new Airtel();
+}

@@ -1,0 +1,9 @@
+package srp;
+
+public class Employee {
+
+	public long salary(long amount ,String Account) {
+		return 0;
+		
+	}
+}
